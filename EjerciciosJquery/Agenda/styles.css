@@ -1,0 +1,37 @@
+html {
+    background-color: lightskyblue;
+}
+
+body {
+    margin: 40px;
+}
+
+#contenedor {
+    float: right;
+    width: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contenedor h1 {
+    text-align: center;
+}
+
+.seccion {
+    height: 100%;
+}
+
+.acordeon {
+    overflow: scroll;
+    height: 500px;
+}
+
+#formulario {
+    display: flex;
+    float: left;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
