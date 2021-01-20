@@ -1,1 +1,1 @@
-# ejercicios
+# Ejercicios de animaciones con canvas
