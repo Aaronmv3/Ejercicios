@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<style type="text/css">
+    body {
+        background: #555;
+    }
+    
+    div#wrapper,
+    div#player,
+    canvas#ambilight,
+    video#video-ambilight {
+        width: 640px;
+        height: 360px;
+    }
+    
+    div#wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -220px;
+        margin-left: -337px;
+    }
+    
+    div#player {
+        position: absolute;
+    }
+    
+    video#video-ambilight {
+        z-index: 3;
+        position: absolute;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    canvas#ambilight {
+        position: absolute;
+        transform: scale(1.4);
+        -webkit-filter: blur(60px);
+        filter: blur(60px);
+        opacity: 1;
+        z-index: 1;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ambilight</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="player">
+            <video id="video-ambilight" src="video.mp4" controls></video>
+            <canvas id="ambilight" width="400" height="217"></canvas>
+        </div>
+    </div>
+    <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        var timerID;
+
+        canvas = document.getElementById('ambilight');
+        ctx = canvas.getContext('2d');
+
+        var video = document.getElementById('video-ambilight');
+
+        video.addEventListener('play', function() {
+            video.currentTime = 0;
+            timerID = window.setInterval(function() {
+                ctx.drawImage(video, 0, 0, 600, 460);
+            }, 100);
+        });
+
+        video.addEventListener('pause', function() {
+            clearInterval(timerID);
+            ctx.drawImage(video, 0, 0, 600, 460);
+        });
+
+        video.addEventListener('ended', function() {
+            clearInterval(timerID);
+            ctx.drawImage(video, 0, 0, 600, 460);
+        });
+    </script>
+</body>
+
+</html>
