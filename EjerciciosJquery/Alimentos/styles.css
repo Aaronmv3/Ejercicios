@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 1%;
+}
+
+.contenedores {
+    display: flex;
+    width: 100%;
+}
+
+.flex {
+    flex: 1;
+    text-align: center;
+}
+
+.flex>img {
+    display: inline-flex;
+}
+
+.lineas {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 500px;
+}
+
+.imagenes>img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
