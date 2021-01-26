@@ -1,0 +1,60 @@
+.animacionImagen {
+    animation-duration: 5s;
+    animation-name: animacionImagen;
+    animation-iteration-count: infinite;
+}
+
+img {
+    margin-bottom: 10%;
+}
+
+@keyframes animacionImagen {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.animacionTexto {
+    animation-duration: 5s;
+    animation-name: animacionTexto;
+    font-size: 20px;
+}
+
+@keyframes animacionTexto {
+    from {
+        -webkit-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+.animacionBoton {
+    animation-duration: 6s;
+    animation-name: animacionBoton;
+}
+
+@keyframes animacionBoton {
+    0% {
+        font-size: 10px;
+        transform: translate(0, 0);
+    }
+    50% {
+        font-size: 30px;
+        transform: translate(300px, 250px);
+    }
+    100% {
+        font-size: 10px;
+        transform: translate(0, 0);
+    }
+}
