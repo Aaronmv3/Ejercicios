@@ -1,0 +1,76 @@
+----------Clientes----------
+DNI: 45142725G
+Nombre: Aaron
+Apellido: Martinez
+Edad: 21
+
+DNI: 349500X
+Nombre: Pilar
+Apellido: Viso
+Edad: 55
+
+DNI: 45162836F
+Nombre: Pepito
+Apellido: Palotes
+Edad: 34
+
+DNI: 98563827U
+Nombre: Manuel
+Apellido: Manolo
+Edad: 67
+
+DNI: 35276857Y
+Nombre: Ramon
+Apellido: Ramonito
+Edad: 24
+
+DNI: 25475863P
+Nombre: Sara
+Apellido: Lopez
+Edad: 54
+
+DNI: 56342516L
+Nombre: Paula
+Apellido: Garcia
+Edad: 34
+
+DNI: 65371534T
+Nombre: Juan
+Apellido: Palomo
+Edad: 54
+
+DNI: 76235783M
+Nombre: Luis
+Apellido: Fernandez
+Edad: 25
+
+DNI: 45374856Y
+Nombre: Elva
+Apellido: Surilla
+Edad: 35
+
+DNI: 56342531F
+Nombre: Pablo
+Apellido: Gonzalez
+Edad: 29
+
+DNI: 37463426T
+Nombre: Yoel
+Apellido: Garcia
+Edad: 28
+
+DNI: 67284523R
+Nombre: Lara
+Apellido: Gonzalez
+Edad: 35
+
+DNI: 34251676G
+Nombre: Aaron
+Apellido: Martinez
+Edad: 23
+
+DNI: 45164487P
+Nombre: Pablo
+Apellido: Vazquez
+Edad: 20
+
