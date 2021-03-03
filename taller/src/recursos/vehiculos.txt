@@ -1,4 +1,3 @@
-----------Vehiculos----------
 Matricula: 2771LCV
 Marca: Renault
 Modelo: Clio

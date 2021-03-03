@@ -1,9 +1,56 @@
-----------Reparaciones----------
-Reparacion [id=1, cliente=2, vehiculo=1, descripcion=Averia en motor, fecha=2021-02-24, tiempo=3, totalReparacion=200]
-Reparacion [id=2, cliente=1, vehiculo=1, descripcion=Averia suspension, fecha=2021-02-24, tiempo=30, totalReparacion=500]
-Reparacion [id=3, cliente=1, vehiculo=1, descripcion=Cambio de ruedas, fecha=2021-02-24, tiempo=1, totalReparacion=500]
-Reparacion [id=4, cliente=4, vehiculo=3, descripcion=Cambio de aceite, fecha=2021-02-24, tiempo=1, totalReparacion=20]
-Reparacion [id=5, cliente=1, vehiculo=3, descripcion=Frenos, fecha=2021-02-24, tiempo=20, totalReparacion=700]
-Reparacion [id=6, cliente=2, vehiculo=4, descripcion=holaxd, fecha=2021-02-24, tiempo=3, totalReparacion=100]
-Reparacion [id=7, cliente=2, vehiculo=3, descripcion=Nada, fecha=2021-02-24, tiempo=5, totalReparacion=300]
-Reparacion [id=8, cliente=2, vehiculo=5, descripcion=Hola, fecha=2021-02-24, tiempo=7, totalReparacion=900]
+ClienteID: 2
+VehiculoID: 1
+Descripcion: Averia en motor
+Fecha: 2021-02-24
+Tiempo: 3
+Total: 200
+
+ClienteID: 1
+VehiculoID: 1
+Descripcion: Averia suspension
+Fecha: 2021-02-24
+Tiempo: 30
+Total: 500
+
+ClienteID: 1
+VehiculoID: 1
+Descripcion: Cambio de ruedas
+Fecha: 2021-02-24
+Tiempo: 1
+Total: 500
+
+ClienteID: 4
+VehiculoID: 3
+Descripcion: Cambio de aceite
+Fecha: 2021-02-24
+Tiempo: 1
+Total: 20
+
+ClienteID: 1
+VehiculoID: 3
+Descripcion: Frenos
+Fecha: 2021-02-24
+Tiempo: 20
+Total: 700
+
+ClienteID: 2
+VehiculoID: 4
+Descripcion: holaxd
+Fecha: 2021-02-24
+Tiempo: 3
+Total: 100
+
+ClienteID: 2
+VehiculoID: 3
+Descripcion: Nada
+Fecha: 2021-02-24
+Tiempo: 5
+Total: 300
+
+ClienteID: 2
+VehiculoID: 5
+Descripcion: Hola
+Fecha: 2021-02-24
+Tiempo: 7
+Total: 900
+

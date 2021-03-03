@@ -1,6 +1,8 @@
 package acciones;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -27,13 +29,14 @@ public class Informes {
 	}
 	
 	public void CliMasReparaciones() {
-		//List<Cliente> cList;
 		Stream<Reparacion> sRp = rp.getAll().stream();
 		
 		Map<Integer, Long> mapa = sRp.collect(Collectors.groupingBy(Reparacion::getCliente, Collectors.counting())); 
-		Stream<Map.Entry<Integer, Long>> reparaciones = mapa.entrySet().stream().sorted(Map.Entry.comparingByValue());
-		
-		reparaciones.forEach(r ->{
+		List<Map.Entry<Integer, Long>> rlist = new ArrayList<>(mapa.entrySet());
+		rlist.sort(Map.Entry.<Integer, Long>comparingByValue().reversed());
+
+		rlist.stream().limit(10).forEach(r ->{
+
 			System.out.print(cl.get(r.getKey()).toString());
 			System.out.println("Reparaciones: " + r.getValue() + "\n");
 		});

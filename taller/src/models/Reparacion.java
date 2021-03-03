@@ -137,9 +137,7 @@ public class Reparacion {
 
 	@Override
 	public String toString() {
-		return "Reparacion [id=" + id + ", cliente=" + cliente + ", vehiculo=" + vehiculo + ", descripcion="
-				+ descripcion + ", fecha=" + fecha + ", tiempo=" + tiempo + ", totalReparacion=" + totalReparacion
-				+ "]";
+		return "ClienteID: " + this.cliente + "\nVehiculoID: " + this.vehiculo + "\nDescripcion: " + this.descripcion + "\nFecha: " + this.fecha + "\nTiempo: " + this.tiempo + "\nTotal: " + this.totalReparacion + "\n";
 	}
 	
 }

@@ -22,6 +22,7 @@ public class Taller {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		boolean exit = false;
 		boolean listo;
+		new CargarGuardar().cargar();
 
 		do {
 			try {
